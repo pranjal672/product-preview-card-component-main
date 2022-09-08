@@ -8,8 +8,8 @@ img {
   display: block;
   width: 100%;
   height: auto;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
+  border-top-left-radius: 0.625rem;
+  border-top-right-radius: 0.625rem;
 }
 
 .desktopimg {
@@ -18,7 +18,7 @@ img {
 
 .cross {
   text-decoration: line-through;
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: normal;
   font-family: "Montserrat", sans-serif;
 }
@@ -28,7 +28,7 @@ button {
   background-color: hsl(158, 36%, 37%);
   color: hsl(0, 0%, 100%);
   border: none;
-  border-radius: 5px;
+  border-radius: 0.3125rem;
   display: flex;
   flex-flow: row nowrap;
   justify-content: center;
@@ -44,7 +44,7 @@ body {
   background-color: hsl(30, 38%, 92%);
   font-family: "Montserrat", sans-serif;
   color: hsl(228, 12%, 48%);
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 500;
   display: flex;
   justify-content: center;
@@ -58,9 +58,9 @@ main {
   display: flex;
   flex-direction: column;
   margin: 1.5rem 1rem;
-  border-radius: 10px;
+  border-radius: 0.625rem;
   width: 100%;
-  max-width: 600px;
+  max-width: 37.5rem;
   height: auto;
 }
 
@@ -103,7 +103,7 @@ h1 {
   color: hsl(158, 36%, 37%);
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 48rem) {
   main {
     flex-direction: row;
     align-items: center;
@@ -118,8 +118,8 @@ h1 {
   }
 
   img {
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
+    border-top-left-radius: 0.625rem;
+    border-bottom-left-radius: 0.625rem;
     border-top-right-radius: 0;
   }
 }
